@@ -1,0 +1,11 @@
+name: sandbox
+on:
+  push:
+    branches:
+      - sandbox
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello
